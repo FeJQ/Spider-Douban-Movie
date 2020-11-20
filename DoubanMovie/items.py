@@ -9,4 +9,6 @@ import scrapy
 class DoubanmovieItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    movie_name_zh=scrapy.Field()
+    score=scrapy.Field()
+    description=scrapy.Field()
